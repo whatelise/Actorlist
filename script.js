@@ -4,7 +4,6 @@ const items = fetch("actors.json")
 function handleActorList(json) {
   json.forEach(showActor);
 }
-// items.forEach(showActor(person));
 
 function showActor(item) {
   const template = document.querySelector("template").content;
